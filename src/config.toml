@@ -1,0 +1,66 @@
+[portal]
+title = "Portal de Orientação para Admissão"
+subtitle = "Estagiários e Aprendizes Tenaris"
+
+[company]
+name = "Tenaris"
+platform = "Lugarh"
+
+[contact]
+phone = "(12) 99727-3627"
+
+[colors]
+primary = "#000097"
+secondary = "#002060"
+accent = "#2F80ED"
+
+success = "#27AE60"
+warning = "#F2994A"
+danger = "#EB5757"
+
+text_primary = "#333333"
+text_secondary = "#666666"
+
+background = "#F8F9FC"
+card_background = "#FFFFFF"
+
+[layout]
+card_radius = "16px"
+card_padding = "24px"
+
+[features]
+show_search = true
+show_faq = true
+show_contact = true
+
+[documents]
+
+categories = [
+    "Documentação Pessoal",
+    "Documentação Acadêmica",
+    "Documentação Trabalhista",
+    "Documentação Complementar"
+]
+
+items = [
+    "Carteira de Identidade",
+    "Declaração de Matrícula",
+    "PIS",
+    "CNIS",
+    "CTPS Digital",
+    "CTPS - Todos os Registros",
+    "Conta Itaú",
+    "Comprovante de Residência",
+    "CNH",
+    "Cursos Extracurriculares",
+    "Foto 5x7",
+    "Cartão SUS",
+    "Título Eleitoral",
+    "CPF Regular",
+    "Carteira de Vacinação"
+]
+
+[assets]
+
+logo = "assets/logo_tenaris.png"
+hero = "assets/hero_banner.png"
