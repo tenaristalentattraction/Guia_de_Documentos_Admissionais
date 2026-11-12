@@ -1,0 +1,25 @@
+[theme]
+
+# Cor principal dos botões, links e componentes
+primaryColor = "#000097"
+
+# Fundo principal da aplicação
+backgroundColor = "#F8F9FC"
+
+# Fundo da sidebar
+secondaryBackgroundColor = "#F3F6FD"
+
+# Cor padrão dos textos
+textColor = "#333333"
+
+# Opções:
+# "sans serif"
+# "serif"
+# "monospace"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+maxUploadSize = 200
