@@ -156,6 +156,10 @@ documentos = {
     "Conselho de Classe": "pages/22_Conselho_de_Classe.py",
     "Contribuição Sindical": "pages/23_Contribuicao_Sindical.py",
     "CPF": "pages/24_CPF.py",
+    "Cartão Transporte URBS": "pages/25_Cartao_Transporte_URBS.py",
+    "Certificação ABENDI / FBTS": "pages/26_Certificacao_Abendi_FBTS.py",
+    "Currículo": "pages/27_Curriculo.py",
+    "Cursos Profissionalizantes": "pages/28_Cursos_Profissionalizantes.py",
 }
 
 documento_escolhido = st.selectbox(

@@ -16,7 +16,7 @@ st.markdown("""
 
 .lugarh-title {
     color: #000097;
-    font-size: 2.1rem;
+    font-size: 2.3rem;
     font-weight: 750;
     margin-bottom: .25rem;
 }
@@ -70,7 +70,7 @@ st.write(
 
 # CHECKLIST
 
-st.subheader("O que conferir antes do envio")
+st.markdown("### O que conferir antes do envio:")
 
 st.markdown("""
 - Todos os dados devem estar **legíveis**;
@@ -82,7 +82,7 @@ st.markdown("""
 
 # RG
 
-st.subheader("RG - Modelo tradicional")
+st.markdown("#### RG - Modelo tradicional")
 
 st.write(
     "Se este for o seu modelo de documento, utilize como referência:"
@@ -96,7 +96,7 @@ st.image(
 
 # CIN
 
-st.subheader("Carteira de Identidade Nacional (CIN)")
+st.markdown("#### Carteira de Identidade Nacional (CIN)")
 
 st.write(
     "Se você já possui a nova identidade, utilize este modelo como referência:"

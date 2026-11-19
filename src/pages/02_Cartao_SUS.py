@@ -1,13 +1,47 @@
 import streamlit as st
 
-st.set_page_config(page_title='Cartão SUS', page_icon="📄", layout="wide")
+st.set_page_config(
+    page_title="Carteira de Identidade",
+    page_icon="📄",
+    layout="wide"
+)
 
 st.markdown("""
 <style>
-.block-container { max-width: 1050px; padding-top: 2rem; padding-bottom: 3rem; }
-.lugarh-title { color: #000097; font-size: 2.1rem; font-weight: 750; margin-bottom: .25rem; }
-.lugarh-subtitle { color: #666666; font-size: 1.05rem; margin-bottom: 1.5rem; }
-.image-placeholder { border: 2px dashed #9aa4b2; border-radius: 10px; padding: 22px; text-align: center; color: #59636e; background: #f6f8fa; margin: 12px 0 20px 0; }
+.block-container {
+    max-width: 1050px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.lugarh-title {
+    color: #000097;
+    font-size: 2.3rem;
+    font-weight: 750;
+    margin-bottom: .25rem;
+}
+
+.lugarh-subtitle {
+    color: #666666;
+    font-size: 1.05rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 600px) {
+    .block-container {
+        padding-top: 1.2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .lugarh-title {
+        font-size: 1.8rem;
+    }
+
+    .lugarh-subtitle {
+        font-size: 1rem;
+    }
+}
 </style>
 """, unsafe_allow_html=True)
 
